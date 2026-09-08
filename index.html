@@ -1,0 +1,6 @@
+<script>
+const number = window.location.search.split("number=")[1];
+if(number) {
+  window.location.href = `https://tracexdata-api.onrender.com/api/user-lookup?service=phone&query=${number}`;
+}
+</script>
